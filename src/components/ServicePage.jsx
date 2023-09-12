@@ -10,7 +10,7 @@ const ServicePage = () => {
   return (
 <section className={`${theme === 'light' ? 'bg-slate-100' : 'bg-black'} w-[100vw] box-border overflow-x-hidden flex flex-col items-center`}>
 
-    <section className={`w-[93%] lg:w-[90%] max-w-[1230px]`}>
+    <section className={`w-[93%] lg:w-[90%] max-w-[1230px] p-0`}>
         <Navbar/>
         <ServiceContent/>
         <Footer/>

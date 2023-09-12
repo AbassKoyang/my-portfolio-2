@@ -5,6 +5,7 @@ import AboutPage from './AboutPage';
 import ProjectPage from './ProjectPage';
 import ServicePage from './ServicePage';
 import ContactPage from './ContactPage';
+import SportopiaPage from './SportopiaPage';
 const RouteComp = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const RouteComp = () => {
     <Route path='/projects' element={<ProjectPage />}/>
     <Route path='/services' element={<ServicePage />}/>
     <Route path='/contact' element={<ContactPage />}/>
+    <Route path='/sportopia' element={< SportopiaPage />}/>
   </Routes>
     
     </>

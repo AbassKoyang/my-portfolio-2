@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTheme } from '../ThemeContext';
-import { me } from '../assets';
+import { MacStudio, me } from '../assets';
 import { TypeAnimation } from 'react-type-animation';
 import { BiLogoInstagram, BiLogoTwitter, BiLogoFacebookCircle, BiLogoReddit, BiArrowBack, BiCodeAlt} from "react-icons/bi";
 import { Link } from 'react-router-dom';
@@ -56,6 +56,9 @@ const Containerone = () => {
 
 
             <Link to="/projects" className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} rounded-[20px] group relative lg:p-[40px] p-[30px]`}>
+            <div className={`w-[250px] h-[250px] md:w-[50%] md:h-[100%] lg:w-[250px] lg:h-[250px] overflow-hidden rounded-tl-[30px] rounded-br-[30px] bg-[#5b78f6]`}>
+            <img src={MacStudio} alt="" className='w-full h-full'/>
+            </div>
               <p className='text-[16px] font-normal text-[#BCBCBC] mt-5 mb-0'>Showcase</p>
             <h4 className={`${theme === 'light' ? 'text-black' : 'text-white'} text-[25px] font-medium`}>Projects</h4>
           <Link to="/projects">

@@ -45,7 +45,7 @@ const ServiceContent = () => {
                 <p className='text-[#919090] mt-2'>Elevating user experiences through intuitive design, I create visually appealing interfaces that engage and delight users, resulting in higher satisfaction and retention rates.</p>
                </div>
                <div className={`p-[30px] ${theme === 'light' ? 'bg-slate-100' : 'bg-zinc-900'} rounded-[30px]`}>
-                <h4 className={`${theme === 'light' ? 'text-black' : 'text-white'} text-[16px] uppercase font-medium`}>Graphicsphics Design</h4>
+                <h4 className={`${theme === 'light' ? 'text-black' : 'text-white'} text-[16px] uppercase font-medium`}>Graphics Design</h4>
                 <p className='text-[#919090] mt-2'>Captivating your audience with stunning visuals, I bring your brand to life through eye-catching graphics, logos, and illustrations that convey your message with impact.</p>
                </div>
                <div className={`p-[30px] ${theme === 'light' ? 'bg-slate-100' : 'bg-zinc-900'} rounded-[30px]`}>

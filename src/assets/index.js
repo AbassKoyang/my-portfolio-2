@@ -39,6 +39,9 @@ import reactLogo from "./reactLogo.png";
 import htmlLogo from "./htmlLogo.png";
 import tailwind from "./tailwind.png";
 import sportopiaproject from "./sportopiaproject.png";
+import Sportopiamockup from "./Sportopiamockup.png";
+import MacStudio from "./MacStudio.png";
+import sportopialandscape from "./sportopialandscape.png";
 
 export {
   airbnb,
@@ -82,4 +85,7 @@ export {
   reactLogo,
   tailwind,
   sportopiaproject,
+  Sportopiamockup,
+  MacStudio,
+  sportopialandscape,
 };
