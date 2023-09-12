@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTheme } from '../ThemeContext'
-import { BiEnvelope, BiLogoInstagram } from 'react-icons/bi';
+import { BiEnvelope, BiLocationPlus, BiLogoInstagram, BiPhone } from 'react-icons/bi';
 import { FaEnvelope } from 'react-icons/fa';
 import { starabsolute } from '../assets';
 
@@ -10,9 +10,25 @@ const ContactContent = () => {
     <section className={`w-[100%] lg:w-[100%]  max-w-[1230px] mt-[150px] lg:mt-[180px] flex flex-col lg:flex-row items-start  gap-[5%]`}>
         <div className={`w-full lg:w-[30%] `}>
             <h1 className={`uppercase font-inter font-medium text-[20px] ${theme === 'light' ? 'text-black' : 'text-white'} mb-4`}>Contact info</h1>
-            <div className={`w-full`}>
+            <div className={`w-full flex flex-col gap-[70px]`}>
                 <div className={`w-[80%] flex gap-[50px]`}>
-                    <BiEnvelope className={`text-[50px] ${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} ${theme === 'light' ? 'text-[#5b78f6]' : 'text-white'}`}/>
+                    <BiEnvelope className={`text-[50px]  ${theme === 'light' ? 'text-[#5b78f6]' : 'text-white'}`}/>
+                    <div className={``}>
+                    <h4 className={`font-inter font-normal text-[17px] uppercase text-[#bcbcbc]`}>Mail us</h4>
+                    <p>abasskoyang12345@gmail.com</p>
+                    <p>medbotixinc@gmail.com</p>
+                    </div>
+                </div>
+                <div className={`w-[80%] flex gap-[50px]`}>
+                    <BiLocationPlus className={`text-[50px]  ${theme === 'light' ? 'text-[#5b78f6]' : 'text-white'}`}/>
+                    <div className={``}>
+                    <h4 className={`font-inter font-normal text-[17px] uppercase text-[#bcbcbc]`}>Location</h4>
+                    <p>3, Ojupon Balle,</p>
+                    <p>Ajah, Lagos, Nigeria</p>
+                    </div>
+                </div>
+                <div className={`w-[80%] flex gap-[50px]`}>
+                    <BiPhone className={`text-[50px]  ${theme === 'light' ? 'text-[#5b78f6]' : 'text-white'}`}/>
                     <div className={``}>
                     <h4 className={`font-inter font-normal text-[17px] uppercase text-[#bcbcbc]`}>Mail us</h4>
                     <p>abasskoyang12345@gmail.com</p>

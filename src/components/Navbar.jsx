@@ -39,7 +39,7 @@ function Navbar() {
         isScrolled ? 'bg-opacity-70 backdrop-blur-md' : 'bg-opacity-100 backdrop-blur-none'
       }`}>
   <div className='w-[70%] flex justify-between items-center'>
-  <a href="#" className={`font-normal font-inter text-[30px] ${theme === 'light' ? 'text-black' : 'text-white'}`}>Grid<span className={`text-[#5b78f6]`}>X</span></a>
+  <a href="#" className={`font-normal font-inter text-[30px] ${theme === 'light' ? 'text-black' : 'text-white'}`}>AK<span className={`text-[#5b78f6]`}>A</span></a>
   <ul className='hidden lg:py-2 lg:px-2 lg:flex lg:gap-10 '>
     {
       Navlinks.map((nav)=>{
