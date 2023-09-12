@@ -42,6 +42,8 @@ import sportopiaproject from "./sportopiaproject.png";
 import Sportopiamockup from "./Sportopiamockup.png";
 import MacStudio from "./MacStudio.png";
 import sportopialandscape from "./sportopialandscape.png";
+import Abass from "./Abass.png";
+import Retta from "./Retta.jpeg";
 
 export {
   airbnb,
@@ -88,4 +90,6 @@ export {
   Sportopiamockup,
   MacStudio,
   sportopialandscape,
+  Abass,
+  Retta,
 };

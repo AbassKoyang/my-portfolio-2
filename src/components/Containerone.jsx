@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTheme } from '../ThemeContext';
-import { MacStudio, me } from '../assets';
+import { Abass, MacStudio, me } from '../assets';
 import { TypeAnimation } from 'react-type-animation';
 import { BiLogoInstagram, BiLogoTwitter, BiLogoFacebookCircle, BiLogoReddit, BiArrowBack, BiCodeAlt} from "react-icons/bi";
 import { Link } from 'react-router-dom';
@@ -11,7 +11,7 @@ const Containerone = () => {
     <section className={`w-[93%] lg:w-[90%] max-w-[1230px] mt-[150px] grid gap-5 grid-rows-2 lg:grid-cols-2 lg:grid-rows-none`}>
         <div className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} lg:p-[40px] p-[30px] flex flex-col md:flex-row items-center justify-between rounded-[25px] gap-8 xl:gap-5`}>
             <div className={`w-[250px] h-[250px] md:w-[50%] md:h-[100%] lg:w-[330px] lg:h-[230px] overflow-hidden rounded-tl-[30px] rounded-br-[30px] bg-[#5b78f6]`}>
-            <img src={me} alt="" className='w-full h-full'/>
+            <img src={Abass} alt="" className='w-full h-full'/>
             </div>
             <div className="flex items-start md:justify-center flex-col">
                 <small className={`font-medium font-poppins text-[#BCBCBC] uppercase`}>

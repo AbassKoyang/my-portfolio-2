@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTheme } from '../ThemeContext'
-import { sportopiaproject } from '../assets';
+import { Retta, sportopiaproject } from '../assets';
 import { Link } from 'react-router-dom';
 import { BiArrowBack, BiLogoFacebookCircle, BiLogoGithub, BiLogoReddit } from 'react-icons/bi';
 import { TbWorldShare } from 'react-icons/tb';
@@ -28,7 +28,7 @@ const ProjectContent = () => {
                 </Link>
             </div>    
             <div to="" className={`p-[30px] rounded-[30px] ${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} group relative`}>
-                <img src={sportopiaproject} className={`w-full h-[200px] lg:h-[320px] mb-4 rounded-[20px]`} alt="Sportopia landing page" />
+                <img src={Retta} className={`w-full h-[200px] lg:h-[320px] mb-4 rounded-[20px]`} alt="Sportopia landing page" />
                 <h1 className={`${theme === 'light' ? 'text-black' : 'text-white'} text-[20px] md:text-[25px] font-inter font-medium uppercase mb-4`}>Retta's</h1>
                 <p className={`text-[14px] md:text-[16px] font-inter font-normal text-[#919090]`}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut accusantium totam tempora, aperiam ab fugiat.</p>
 
