@@ -56,7 +56,7 @@ const Containerone = () => {
 
 
             <Link to="/projects" className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} rounded-[20px] group relative lg:p-[40px] p-[30px]`}>
-            <div className={`w-[250px] h-[250px] md:w-[50%] md:h-[100%] lg:w-[250px] lg:h-[250px] overflow-hidden rounded-tl-[30px] rounded-br-[30px] bg-[#5b78f6]`}>
+            <div className={`w-[250px] h-[250px] md:w-[50%] md:h-[100%] lg:w-full lg:h-[80px] overflow-hidden  rounded-br-[30px] bg-[#5b78f6]`}>
             <img src={MacStudio} alt="" className='w-full h-full'/>
             </div>
               <p className='text-[16px] font-normal text-[#BCBCBC] mt-5 mb-0'>Showcase</p>
