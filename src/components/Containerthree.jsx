@@ -22,7 +22,7 @@ const Containerthree = () => {
                 <p className={`font-thin font-inter text-[#BCBCBC] text-[15px] text-center`}>Completed Projects</p>
             </div>
         </div>
-        <Link className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} col-span-1 rounded-[25px] lg:p-[35px] p-[25px] relative group flex flex-col justify-end cursor-pointer h-1/2 lg:h-full`}>
+        <Link to="/contact" className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} col-span-1 rounded-[25px] lg:p-[35px] p-[25px] relative group flex flex-col justify-end cursor-pointer h-1/2 lg:h-full`}>
         
             <img src={starabsolute} alt="Star" className={`absolute top-5 left-10 w-[15px] h-[30px] lg:w-[30px] lg:h-[60px]`}/>
 

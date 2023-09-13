@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTheme } from '../ThemeContext'
-import { Javascript, htmlLogo, me } from '../assets';
+import { Abass, Javascript, htmlLogo, me } from '../assets';
 import { BiLogoInstagram, BiLogoTwitter, BiLogoFacebookCircle, BiLogoReddit, BiArrowBack, BiCodeAlt, BiLogoJavascript, BiLogoHtml5, BiLogoCss3, BiLogoReact, BiLogoTailwindCss, BiLogoBootstrap, BiLogoNodejs, BiLogoMongodb, BiLogoFigma, BiLogoBlogger, } from "react-icons/bi";
 import {SiAdobeillustrator, SiAdobepremierepro} from 'react-icons/si'
 import { Link } from 'react-router-dom';
@@ -11,7 +11,7 @@ const AboutContent = () => {
         <body className={`w-[93%] lg:w-[100vw] lg:pl-[5%] lg:pr-[5%]  max-w-[1440px] mt-[150px] flex flex-col lg:flex-row items-start gap-[5%] overflow-y-auto]`}>
             <div className={`w-[100%] lg:w-[35%] p-[30px] rounded-[35px] ${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} flex flex-col items-center sticky top-0 z-10`}>
                 <div className={`w-[300px] h-[300px] lg:w-[350px] lg:h-[350px] bg-[#5b78f6] rounded-[35px] overflow-hidden`}>
-                <img src={me} alt=""  className={`w-full h-full`}/>
+                <img src={Abass} alt=""  className={`w-full h-full`}/>
                 </div>
                 <h1 className={`font-inter font-medium text-[35px] mt-5 mb-0 ${theme === 'light' ? 'text-black' : 'text-white'}`}>Abass Koyang</h1>
                 <p className={`font-inter font-thin text-[20px] text-[#BCBCBC]`}>@abasskoyang</p>

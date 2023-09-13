@@ -12,7 +12,7 @@ const Containertwo = () => {
     const { theme, toggleTheme } = useTheme();
   return (
     <section className={`w-[93%] lg:w-[90%] max-w-[1230px] mt-[1.75rem] grid gap-5 grid-rows-3 lg:grid-cols-4 lg:grid-rows-none`}>
-        <Link className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} col-span-2 lg:col-span-1 rounded-[20px] lg:p-[35px] p-[25px] order-3 relative group cursor-pointer`}>
+        <Link to="/contact" className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} col-span-2 lg:col-span-1 rounded-[20px] lg:p-[35px] p-[25px] order-3 relative group cursor-pointer`}>
             <div className={`flex gap-4 items-center justify-center icon-bubble-wrap ${theme === 'light' ? 'bg-slate-100' : ' bg-zinc-900'} p-[20px] rounded-[30px] `}>
                 {/* <BiLogoTwitter className={` rounded-[50%] text-[60px] icon-buble lg:hidden ${theme === 'light' ? 'bg-white' : 'bg-zinc-800'} ${theme === 'light' ? 'text-[#5b78f6] hover:text-black' : 'text-white hover:text-black hover:bg-white'}  p-[10px] transition-all duration-300`}/> */}
                 <BiLogoInstagram className={` rounded-[50%] text-[60px] icon-buble lg:hidden ${theme === 'light' ? 'bg-white' : 'bg-zinc-800'} ${theme === 'light' ? 'text-[#5b78f6] hover:text-black' : 'text-white hover:text-black hover:bg-white'}  p-[10px] transition-all duration-300`}/>
@@ -35,7 +35,7 @@ const Containertwo = () => {
 
 
 
-        <Link className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} col-span-2 rounded-[25px] lg:p-[35px] p-[25px] order-2 relative group flex flex-col justify-end cursor-pointer`}>
+        <Link to='/services' className={`${theme === 'light' ? 'bg-white' : 'bg-[#212121]'} col-span-2 rounded-[25px] lg:p-[35px] p-[25px] order-2 relative group flex flex-col justify-end cursor-pointer`}>
             <div className={`flex items-center justify-center gap-[2rem] md:gap-[4rem] mb-8`}>
             <BsFileCode className={`${theme === 'light' ? 'text-[#5b78f6]' : 'text-white'} text-[45px] md:text-[60px] `}/>
             <FaFigma className={`${theme === 'light' ? 'text-[#5b78f6]' : 'text-white'} text-[45px] md:text-[60px] `}/>
