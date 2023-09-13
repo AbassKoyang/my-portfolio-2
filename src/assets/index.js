@@ -44,6 +44,10 @@ import MacStudio from "./MacStudio.png";
 import sportopialandscape from "./sportopialandscape.png";
 import Abass from "./Abass.png";
 import Retta from "./Retta.jpeg";
+import dreemz from "./dreemz.jpeg";
+import dream from "./dream.jpeg";
+import gobits from "./gobits.jpeg";
+import softwaretesting from "./softwaretesting.jpeg";
 
 export {
   airbnb,
@@ -92,4 +96,8 @@ export {
   sportopialandscape,
   Abass,
   Retta,
+  dreemz,
+  dream,
+  gobits,
+  softwaretesting,
 };
