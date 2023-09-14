@@ -24,17 +24,19 @@ const Containerone = () => {
         1000,
         'A Graphics Designer',
         1000,
+        'A Video Editor',
+        1000,
         'A Blogger',
-        1000
+        1000,
       ]}
       wrapper="span"
       speed={50}
-      style={{ fontSize: 'text-[14px] md:text-[18px] lg:text-[14px]', display: 'inline-block', color: '#5b78f6' }}
+      style={{fontSize: 'text-[14px] md:text-[18px] lg:text-[14px]', display: 'inline-block', color: '#5b78f6' }}
       repeat={Infinity}
     />
                 </small>
                 <p  className={`${theme === 'light' ? 'text-black' : 'text-white'} font-inter text-[33px] md:text-[40px] lg:text-[33px] font-medium leading-[40px]`}>Ahmad Koyang Abass.</p>
-                <small className={`text-[15px] md:text-[17px] lg:text-[15px] font-normal font-inter mt-3 text-[#BCBCBC]`}>I am a Web Developer based in san fransisco.</small>
+                <small className={`text-[15px] md:text-[17px] lg:text-[15px] font-normal font-inter mt-3 text-[#BCBCBC]`}>I am a passionate Web Developer based in Lagos, Nigeria.</small>
             </div>
         </div>
 
