@@ -22,7 +22,7 @@ const ContactContent = () => {
                     </div>
                 </div>
                 <div className={`w-[80%] flex gap-[50px]`}>
-                    <BiLocationPlus className={`text-[70px] p-[12px] rounded-xl bg-white  ${theme === 'light' ? 'text-[#5b78f6]' : 'text-white'}`}/>
+                    <BiLocationPlus className={`text-[70px] p-[12px] rounded-xl bg-white  ${theme === 'light' ? 'text-[#5b78f6]' : 'text-[#5b78f6]'}`}/>
                     <div className={``}>
                     <h4 className={`font-inter font-normal text-[17px] uppercase text-[#bcbcbc]`}>Location</h4>
                     <p className={`${theme === 'light' ? 'text-[#919090]' : 'text-[#919090]'}`}> 3, Ojupon Baale St,</p>
@@ -30,7 +30,7 @@ const ContactContent = () => {
                     </div>
                 </div>
                 <div className={`w-[80%] flex gap-[50px]`}>
-                    <FaPhoneAlt className={`text-[50px] p-[12px] rounded-xl bg-white  ${theme === 'light' ? 'text-[#5b78f6]' : 'text-white'}`}/>
+                    <FaPhoneAlt className={`text-[70px] p-[12px] rounded-xl bg-white  ${theme === 'light' ? 'text-[#5b78f6]' : 'text-[#5b78f6]'}`}/>
                     <div className={``}>
                     <h4 className={`font-inter font-normal text-[17px] uppercase text-[#bcbcbc]`}>Phone</h4>
                     <p className={`${theme === 'light' ? 'text-[#919090]' : 'text-[#919090]'}`} >+234 816 278 2567</p>
@@ -48,7 +48,7 @@ const ContactContent = () => {
             <input type="text" placeholder='Email *' className={`${theme === 'light' ? 'bg-slate-100' : 'bg-zinc-900'} rounded-xl border-none w-full h-[60px] px-[30px]`}/>
             <input type="text" placeholder='Your Subject *' className={`${theme === 'light' ? 'bg-slate-100' : 'bg-zinc-900'} rounded-xl border-none w-full h-[60px] px-[30px]`}/>
             <textarea placeholder='Your Message *' className={`${theme === 'light' ? 'bg-slate-100' : 'bg-zinc-900'} rounded-xl border-none w-full px-[30px] py-[20px]`} name="messagebox" id="messageBox" cols="30" rows="6"></textarea>
-            <button className={`${theme === 'light' ? 'bg-black' : 'bg-[#5b78f6]'} rounded-xl border-none w-full h-[60px] px-[30px] text-[14px] font-inter font-medium`}>Contact Me</button>
+            <button className={`${theme === 'light' ? 'bg-black hover:bg-[#5b78f6]' : 'bg-[#5b78f6] hover:bg-black'} ${theme === 'light' ? 'text-white' : 'text-black'} rounded-xl border-none w-full h-[60px] px-[30px] text-[16px] font-inter font-medium transition-all duration-300`}>Contact Me</button>
         </form>
         </div>
     </section>

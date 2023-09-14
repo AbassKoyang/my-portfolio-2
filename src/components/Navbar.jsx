@@ -63,7 +63,7 @@ function Navbar() {
 
   <i onClick={() => setToggle(!toggle)} className='lg:hidden'>{toggle ? <BiX className={`text-[35px] transition-all ${theme === 'light' ? 'text-black' : 'text-white'} cursor-pointer`}/> : <BiMenu className={`text-[35px] transition-all ${theme === 'light' ? 'text-black' : 'text-white'} cursor-pointer`}/>}</i> 
 </div>
-<div className={`${!toggle? 'hidden' : 'flex'} lg:hidden md:py-5 p-3 rounded-md flex-col items-center justify-center gap-7 w-full absolute bottom-[-250px] md:bottom-[-260px] left-0 bg-slate-300 sidebar`}>
+<div className={`${!toggle? 'hidden' : 'flex'} lg:hidden md:py-5 p-3 rounded-md flex-col items-center justify-center gap-7 w-full absolute bottom-[-250px] md:bottom-[-260px] left-0 ${theme === 'light' ? 'bg-white' : 'bg-black'} bg-opacity-70 backdrop-blur-md  sidebar`}>
   <ul className='flex flex-col items-center justify-center gap-4 cursor-pointer'>
     {
       Navlinks.map((nav)=>{
